@@ -98,6 +98,24 @@ body {
   font-weight: 700;
 }
 
+.header_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header_logo {
+  width: 64px;
+  height: 34px;
+}
+
+.header_site-name {
+  margin: 0;
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 .header_heading {
   font-family: Handjet;
   font-size: 48px;
@@ -355,6 +373,18 @@ body {
   .header_tab {
     font-size: 12px;
     text-align: center;
+  }
+
+  .header_logo {
+    width: 32px;
+    height: 17px;
+  }
+
+  .header_site-name {
+    margin: 0;
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 700;
   }
 
   .header_heading {
